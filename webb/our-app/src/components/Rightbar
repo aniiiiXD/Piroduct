@@ -1,0 +1,28 @@
+'use client';
+import React from 'react';
+import Image from 'next/image';
+
+const Rightbar = () => {
+    const recentDocuments = [
+        { id: '1', title: 'Summer Campaign', updatedTime: 'Updated 2 minutes ago', thumbnails: ['/thumbnails/summer-text.png'] },
+        { id: '2', title: 'Inspiration Notes', updatedTime: 'Updated 3 hours ago', thumbnails: ['/thumbnails/inspiration.png'] },
+        { id: '3', title: 'Campaign Moodboard', updatedTime: 'Updated 5 hours ago', thumbnails: ['/thumbnails/moodboard-1.png', '/thumbnails/moodboard-2.png'] },
+        { id: '4', title: 'Circular Inspiration', updatedTime: 'Updated 8 hours ago', thumbnails: ['/thumbnails/circular.png'] },
+        { id: '5', title: 'Luxury Campaign Steps', updatedTime: 'Updated 8 hours ago', thumbnails: ['/thumbnails/luxury-1.png', '/thumbnails/luxury-2.png'] },
+        { id: '6', title: 'Untitled', updatedTime: 'Updated 2 days ago' },
+        { id: '7', title: 'Test Note', updatedTime: 'Updated 2 days ago' },
+        { id: '8', title: 'Concepts', updatedTime: 'Updated 2 days ago', thumbnails: ['/thumbnails/concepts.png'] },
+    ];
+
+    const teamMembers = [
+        { id: '1', name: 'Ethan Anderson', role: 'Product Manager', avatar: '/avatars/ethan.png', isOnline: true },
+        { id: '2', name: 'Simone Daniels', role: 'Marketing Manager', initial: 'S', isOnline: true },
+        { id: '3', name: 'Noah Martinez', role: 'CRM Manager', avatar: '/avatars/noah.png', isOnline: true },
+        { id: '4', name: 'Olivia Mitchell', role: 'Designer', avatar: '/avatars/olivia.png', isOnline: false },
+        { id: '5', name: 'Liam Johnson', role: 'Designer', avatar: '/avatars/liam.png', isOnline: false },
+        { id: '6', name: 'Ava Williams', role: 'Designer', avatar: '/avatars/ava.png', isOnline: true },
+    ];
+
+};
+
+export default Rightbar;
